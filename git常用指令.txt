@@ -38,3 +38,11 @@ ssh-keygen -t rsa -C "2225915455@qq.com" - 生成秘钥
 生成之后复制，回到git再push，弹出用户框输入用户名，
 密码框输入这个令牌即可
 
+git branch -> 查看所有分支状态
+git branch 分支名称 -> 创建分支
+git checkout 分支名称 -> 切换分支
+git checkout -b 分支名称
+
+git checkout 分支名称 远程仓库名称/远程仓库分支名称 -> 将远程仓库的分支下载到本地
+git pull -> 将远程仓库的同步到本地(更新本地的仓库)
+
